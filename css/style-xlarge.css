@@ -1,0 +1,38 @@
+/*
+	Strata by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/* Basic */
+
+/*
+	Strata by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/* Basic */
+				.btn{
+									margin-top: 20px;
+								}
+
+.btn a{
+  border: 3px solid #afb1b4;
+font-size: 1.2em;
+font-weight: 300;
+color: black;
+border-radius: 0.3em;
+-webkit-border-radius: 0.3em;
+-moz-border-radius: 0.3em;
+-o-border-radius: 0.3em;
+outline: none;
+padding: 5px 2em;
+  text-decoration:none;
+}
+	
+	body, input, select, textarea {
+		direction: rtl;
+		font-size: 12pt;
+		font-family: ukij tuz tom;
+	}
