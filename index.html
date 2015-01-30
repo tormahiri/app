@@ -6,6 +6,28 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="tormahiri" />
 		<meta name="keywords" content="tormahiri" />
+		<script type="text/javascript">
+var uA = navigator.userAgent;
+var browser = null;
+var ieVersion = null;
+
+if (uA.indexOf('MSIE 6') >= 0) {
+    browser = 'IE';
+    ieVersion = 6;
+}
+if (uA.indexOf('MSIE 7') >= 0) {
+    browser = 'IE';
+    ieVersion = 7;
+}
+if (document.documentMode) { // as of IE8
+    browser = 'IE';
+    ieVersion = document.documentMode;
+}
+if(ieVersion==8){
+         alert("torkurguqigiz bak kona chrome ni eshliting!");
+	window.close();
+}
+		</script>
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
 		<!--<script src="js/jquery.poptrox.min.js"></script>-->
